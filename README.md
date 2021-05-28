@@ -51,4 +51,5 @@ To get the format of the body, I setup [webhook.site](https://webhook.site) as a
 1. Create an Azure account
 2. Create an Azure Function
 3. Publish the project to the newly created Azure Function
-4. Add the function urls as custom integrations in Ghost
+4. Add environment variables for the Azure Function that mirror the local.settings.json variables
+5. Add the function urls as custom integrations in Ghost
